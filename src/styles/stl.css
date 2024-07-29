@@ -1,0 +1,102 @@
+/* Global Styles */
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+.ui.header {
+    font-size: 2.5em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.ui.teal.button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.ui.teal.button:hover {
+    background-color: #357ab7;
+}
+
+/* Divider */
+.ui.divider {
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Table */
+.ui.celled.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ui.celled.table th,
+.ui.celled.table td {
+    padding: 15px;
+    text-align: left;
+}
+
+.ui.celled.table thead {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+.ui.celled.table tbody tr {
+    transition: background-color 0.3s;
+}
+
+.ui.celled.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Pagination */
+.ui.pagination.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ui.pagination.menu .item {
+    padding: 10px 15px;
+    margin: 0 5px;
+    background-color: #4a90e2;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.ui.pagination.menu .item:hover {
+    background-color: #357ab7;
+}
+
+.ui.pagination.menu .item.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.ui.pagination.menu .item.active {
+    background-color: #357ab7;
+}

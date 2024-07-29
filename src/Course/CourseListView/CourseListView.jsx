@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { PageLoader } from '../../framework/ui';
 import CourseCard from '../CourseCard/CourseCard';
 
+import '../../styles/stl.css';
 
 export default class CourseListView extends React.Component {
   constructor() {

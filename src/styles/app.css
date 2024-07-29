@@ -1,3 +1,20 @@
+/* src/styles/app.css */
 body {
-  padding-top: 60px;
+  /* padding-top: 60px; */
+  font-family: 'Arial, sans-serif';
 }
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* .jumbotron {
+  background: url('path_to_image.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+}
+
+.landing-page header {
+  background: url('path_to_header_image.jpg') no-repeat center center;
+  background-size: cover;
+} */

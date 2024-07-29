@@ -1,0 +1,160 @@
+/* Global Styles */
+body, html {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    width: 100%;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.hero-section .cta-buttons button {
+    background-color: #fff;
+    color: #4a90e2;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero-section .cta-buttons button:hover {
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+/* Section Titles */
+section h2 {
+    font-size: 2em;
+    color: #4a90e2;
+    margin-bottom: 20px;
+}
+
+/* Featured Courses */
+.featured-courses, .about-us, .student-testimonials, .course-categories, .upcoming-events, .how-it-works, .instructor-spotlight, .latest-blogs, .contact-information {
+    /* width: 80%; */
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course, .instructor, .blog-post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.course img, .instructor img {
+    max-width: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.course h3, .instructor h3, .blog-post h3 {
+    margin: 0;
+    color: #333;
+}
+
+.course p, .instructor p, .blog-post p {
+    margin: 10px 0;
+}
+
+.course a, .instructor a, .blog-post a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course a:hover, .instructor a:hover, .blog-post a:hover {
+    text-decoration: underline;
+}
+
+/* About Us */
+.about-us ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-us ul li {
+    margin-bottom: 10px;
+}
+
+/* Student Testimonials */
+blockquote {
+    border-left: 5px solid #4a90e2;
+    margin: 10px 0;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+/* Course Categories */
+.course-categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.course-categories ul li {
+    background-color: #4a90e2;
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Upcoming Events */
+.event {
+    margin-bottom: 20px;
+}
+
+/* Instructor Spotlight */
+.instructor img {
+    border-radius: 50%;
+}
+
+.instructor a {
+    margin-left: auto;
+}
+
+/* Contact Information */
+.contact-information p {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.contact-information a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.contact-information a:hover {
+    text-decoration: underline;
+}

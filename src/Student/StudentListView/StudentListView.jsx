@@ -8,6 +8,7 @@ import { range } from 'lodash/util';
 import StudentListItem from '../StudentListItem/StudentListItem';
 
 import { PageLoader } from '../../framework/ui';
+import '../../styles/stl.css';
 
 function renderHeader() {
   return (
@@ -43,6 +44,22 @@ export default class StudentListView extends React.Component {
   fetchStudents() {
     this.setState({ isLoading: true });
     const data = [
+      { id: 23, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 21, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 20, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 19, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 23, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 21, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 20, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 19, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 23, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 21, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 20, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 19, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 23, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 21, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 20, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
+      { id: 19, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
       { id: 23, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
       { id: 21, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
       { id: 20, fullName: 'Leo mna', email: 'abc@test.com', gender: 'male', dateOfBirth: 'Many more desc', credit: 'anything' },
@@ -136,6 +153,16 @@ export default class StudentListView extends React.Component {
               {this.renderBody()}
               {this.renderFooter()}
             </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
         )}
       </div>
